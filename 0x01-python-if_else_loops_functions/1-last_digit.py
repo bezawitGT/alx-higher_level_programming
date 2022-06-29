@@ -6,7 +6,7 @@ pos = ' and is greater than 5'
 if (number >= 0):
     last = number % 10
 else:
-    last = number % 10
+    last = number % -10
 if (last > 5):
     print('Last digit of ' + str(number) + ' is ' + str(last) + pos)
 elif (last == 0):
